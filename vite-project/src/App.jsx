@@ -1,11 +1,11 @@
 
-import './App.css'
+import TabSwitcher from './TabSwitcher/TabSwitcher'
 
 function App() {
 
   return (
     <>
-      hellow
+     <TabSwitcher/>
     </>
   )
 }
