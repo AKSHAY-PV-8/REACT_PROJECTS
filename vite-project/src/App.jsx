@@ -1,5 +1,6 @@
 
 import AgeCalculator from './AgeCalculator/AgeCalculator'
+import ChipsInput from './ChipsInput/ChipsInput'
 import DynamicGreeting from './DynamicGreeting/DynamicGreeting'
 import TabSwitcher from './TabSwitcher/TabSwitcher'
 
@@ -9,7 +10,8 @@ function App() {
     <>
      {/* <TabSwitcher/> */}
      {/* <DynamicGreeting/> */}
-     <AgeCalculator/>
+     {/* <AgeCalculator/> */}
+     <ChipsInput/>
     </>
   )
 }
