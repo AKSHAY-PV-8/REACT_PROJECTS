@@ -8,6 +8,8 @@ const ChipsInput = () => {
     const [chip, setChip] = useState("")
     const [chips, setChips] = useState([{id: null, chip: null}])
 
+    
+
     function handleDelete(id){
         let fileterd = chips.filter(item => item.id !== id)
         setChips(fileterd)

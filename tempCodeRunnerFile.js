@@ -1,0 +1,2 @@
+let t = test()
+t()
