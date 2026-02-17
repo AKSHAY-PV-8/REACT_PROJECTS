@@ -5,6 +5,7 @@ import DynamicGreeting from './DynamicGreeting/DynamicGreeting'
 import FilterRecipes from './FilterRecipes/FilterRecipes'
 import SideBar from './SideBar/SideBar'
 import TabSwitcher from './TabSwitcher/TabSwitcher'
+import ToggleBtn from './ToggleBtn-CusomHook/ToggleBtn'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
      {/* <AgeCalculator/> */}
      {/* <ChipsInput/> */}
      {/* <SideBar/> */}
-     <FilterRecipes/>
+     {/* <FilterRecipes/> */}
+     <ToggleBtn/>
     </>
   )
 }
